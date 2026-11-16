@@ -1,0 +1,33 @@
+{
+  "id": "marram",
+  "name": "Marram",
+  "type": "theme",
+  "version": "0.1.0",
+  "description": "A minimal, airy theme that gives every product room to breathe",
+  "repository_url": "https://github.com/swellstores/marram-theme",
+  "preview_src": "assets/preview.png",
+  "preview_mobile_src": "assets/preview-mobile.png",
+  "theme": {
+    "storefront": {
+      "app": "wave"
+    },
+    "listing": {
+      "industries": [],
+      "styles": [
+        "minimal"
+      ],
+      "features": [
+        "filters",
+        "quick_add",
+        "subscriptions",
+        "swatches"
+      ],
+      "catalog_sizes": [
+        "few",
+        "some"
+      ],
+      "best_for": "Any store that wants a quiet, airy look with room around every product",
+      "demo_url": "https://palewick-demo--ftaraqn8.swell.store/__demo"
+    }
+  }
+}

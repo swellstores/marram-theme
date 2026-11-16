@@ -1,0 +1,87 @@
+{
+  "title": "Home",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "open_hero",
+      "props": {
+        "heading": "",
+        "line": "Discover our latest products.",
+        "link_label": "Shop all",
+        "link_href": "/products",
+        "image_place": "below",
+        "photo_ratio": "16:7",
+        "rule": "show"
+      }
+    },
+    {
+      "id": "new",
+      "type": "product_tiles",
+      "props": {
+        "heading": "New arrivals",
+        "link_label": "Shop all",
+        "link_href": "/products",
+        "products": {
+          "from": "all",
+          "sort": "newest",
+          "limit": 6
+        },
+        "columns": "3",
+        "frame": "inset",
+        "heading_place": "top"
+      }
+    },
+    {
+      "id": "focus",
+      "type": "product_spotlight",
+      "props": {
+        "label": "In focus",
+        "product": "first",
+        "photo_side": "left",
+        "quick_add": "show"
+      }
+    },
+    {
+      "id": "index",
+      "type": "collection_index",
+      "props": {
+        "heading": "Collections",
+        "link_label": "All collections",
+        "link_href": "/categories",
+        "collections": {
+          "from": "top",
+          "limit": 5
+        },
+        "numbers": "show",
+        "photos": "show"
+      }
+    },
+    {
+      "id": "about",
+      "type": "statement",
+      "props": {
+        "label": "About us",
+        "sentence": "Learn more about who we are and what we make.",
+        "align": "offset"
+      }
+    },
+    {
+      "id": "notes",
+      "type": "text_columns",
+      "props": {
+        "items": []
+      }
+    },
+    {
+      "id": "letters",
+      "type": "email_signup",
+      "props": {
+        "heading": "Stay in touch",
+        "text": "Sign up to get emails from us.",
+        "button_label": "Subscribe",
+        "background_colour": "#dfe3dc",
+        "text_colour": "#1c1f1d"
+      }
+    }
+  ]
+}

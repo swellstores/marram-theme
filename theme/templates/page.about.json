@@ -1,0 +1,50 @@
+{
+  "title": "About",
+  "sections": [
+    {
+      "id": "content",
+      "type": "page_content",
+      "props": {
+        "page": "current",
+        "width": "narrow"
+      }
+    },
+    {
+      "id": "belief",
+      "type": "statement",
+      "props": {
+        "label": "Our story",
+        "sentence": "Learn more about who we are and what we make.",
+        "align": "offset",
+        "tone": "raised"
+      }
+    },
+    {
+      "id": "notes",
+      "type": "text_columns",
+      "props": {
+        "items": []
+      }
+    },
+    {
+      "id": "picks",
+      "type": "product_tiles",
+      "props": {
+        "heading": "A few favorites",
+        "link_label": "Shop all",
+        "link_href": "/products",
+        "products": {
+          "from": "all",
+          "sort": "best_selling",
+          "limit": 3
+        },
+        "columns": "3",
+        "frame": "inset",
+        "heading_place": "top",
+        "show_count": "hide",
+        "show_sort": "hide",
+        "show_filters": "hide"
+      }
+    }
+  ]
+}

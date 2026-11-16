@@ -1,0 +1,33 @@
+{
+  "fields": [
+    {
+      "type": "field_group",
+      "label": "Header",
+      "fields": [
+        { "id": "sticky_header", "label": "Header stays at the top of the window", "type": "toggle", "default": true,
+          "description": "Off, the header scrolls away with the page." }
+      ]
+    },
+    {
+      "type": "field_group",
+      "label": "Product tiles",
+      "description": "How products show in every tile grid: home, collections, search and related products.",
+      "fields": [
+        { "id": "tile_hover_photo", "label": "Second photo when pointed at", "type": "toggle", "default": true,
+          "description": "With a mouse, a tile shows the product's next photo." },
+        { "id": "tile_color_dots", "label": "Color dots under the name", "type": "toggle", "default": true,
+          "description": "From the first option whose values have colors." },
+        { "id": "tile_add_button", "label": "Add to cart button under each tile", "type": "toggle", "default": false,
+          "description": "Products with options link to their page instead." }
+      ]
+    },
+    {
+      "type": "field_group",
+      "label": "Product page",
+      "fields": [
+        { "id": "product_quantity", "label": "Show the quantity box", "type": "toggle", "default": true,
+          "description": "Off for stores that sell one of each." }
+      ]
+    }
+  ]
+}

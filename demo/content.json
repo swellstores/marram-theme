@@ -1,0 +1,2653 @@
+{
+  "format": 1,
+  "theme": "theme-minimal",
+  "store": {
+    "name": "Palewick",
+    "tagline": "Quiet things for the table, the bath and the shelf.",
+    "currency": "USD",
+    "locale": "en-US",
+    "email": "hello@palewick.example",
+    "phone": "(802) 555-0148",
+    "address": {
+      "address1": "22 Mill Row",
+      "city": "Ashby Falls",
+      "state": "VT",
+      "zip": "05099",
+      "country": "US"
+    },
+    "ship_to": [
+      "US",
+      "CA"
+    ],
+    "shipping": {
+      "name": "Standard shipping",
+      "price": 8,
+      "free_over": 100
+    },
+    "voice": "Calm, plain and exact. Short sentences, concrete details (the clay, the weave, how long a candle burns), gentle humor at most. No hype, no exclamation marks, no 'curated' or 'elevated'. We describe how a thing is used and cared for, and let it be.",
+    "story": "Palewick began in 2019 with one candle: undyed wax and a pale cotton wick, poured by Nora Wend in the old loading room of a paper mill in Ashby Falls, Vermont. Her friend Sam Avery, a former restaurant cook, wanted plates that looked right with any food, and found a family workshop in Portugal to throw them. The shop has grown slowly since, to about thirty things: stoneware, washed linen, glass, a few scents and small objects, each made by people we know and chosen to be used every day for years. The studio shop opens Thursday to Saturday; everything else ships from the room next door.",
+    "policies": {
+      "refund": "<p>If something isn't right, send it back within 30 days of delivery, unused and in its original packaging, and we will refund it in full to your original payment method.</p><p>Candles that have been burned, and soaps and bath soaks that have been opened, can't be returned, unless they arrived damaged.</p><p>If anything arrives broken or chipped, send us a photo at hello@palewick.example within 7 days and we will send a replacement or a refund straight away. You don't need to send the broken piece back.</p><p>To start a return, write to hello@palewick.example with your order number. Return shipping is $8, taken from your refund, or free if we made a mistake.</p>",
+      "shipping": "<p>We ship to the United States and Canada. Orders leave our studio in Ashby Falls within two working days, packed in recycled paper with no plastic.</p><p>Standard shipping is $8 and free on orders over $100. Most US orders arrive in 3–6 working days and Canadian orders in 6–10. Canadian orders may be charged duties and taxes on delivery.</p><p>Subscriptions to beeswax tapers ship free.</p>",
+      "privacy": "<p>We keep only what we need to send your order and answer your messages: your name, email, address and what you bought. Payments are handled by our payment provider; we never see or store your card number.</p><p>If you sign up for our letters, we use your email for them and nothing else; every letter has a link to unsubscribe. We never sell or share your information.</p><p>To see, correct or delete what we hold about you, write to hello@palewick.example.</p>",
+      "terms": "<p>These terms apply when you buy from Palewick, 22 Mill Row, Ashby Falls, VT 05099.</p><p>Our stoneware and glass are made by hand, so sizes and glazes vary a little from piece to piece and from the photos. That is part of the work, not a fault.</p><p>Prices are in US dollars. We confirm every order by email, and the sale is complete when it ships. If a product turns out to be unavailable after you order, we refund it in full.</p><p>Subscriptions renew on their schedule until you skip or cancel them from your account, which you can do at any time before the next box ships.</p><p>Questions? Write to hello@palewick.example.</p>"
+    }
+  },
+  "art_direction": "Quiet, airy still-life and interior photography for a small shop of home goods. Ground: a pale fog-gray with a faint green cast, seamless and matte, the background of every product shot; rooms have pale gray-white limewashed walls, pale oak and pale stone surfaces. Light: soft, diffused northern daylight from one side, low contrast, gentle soft-edged shadows; never flash, harsh sun or orange golden-hour glow. Palette: fog gray, chalk white, pale sage, oat, soft slate and charcoal, raw linen and pale honey, with small touches of brushed brass; calm and desaturated. Composition: lots of negative space. Product shots show the object small to medium in the center of the frame, straight on or from a slight three-quarter angle, with at least a third of the frame empty around it. Scenes hold only a few objects: uncluttered, lived-in but tidy. Lens: a 50–85 mm look, true proportions, crisp texture of glaze, weave and wax, a fine natural grain. Real-photo style, minimal and calm. Avoid: any text, letters, numbers, logos, labels, stickers, tags, signage or watermarks (bottles, jars, boxes, books and soaps are completely blank); people and faces; clutter and piles of props; bright flowers; saturated or neon color; glossy plastic; a CGI look; heavy vignettes or dramatic shadows.",
+  "attributes": [
+    {
+      "id": "material",
+      "name": "Material",
+      "type": "select",
+      "visible": true,
+      "filterable": true,
+      "values": [
+        "Stoneware",
+        "Glass",
+        "Frosted glass",
+        "Washed linen",
+        "Cotton",
+        "Coconut and soy wax",
+        "Beeswax",
+        "Olive oil soap",
+        "Brass",
+        "Paper and linen"
+      ]
+    },
+    {
+      "id": "color",
+      "name": "Color",
+      "type": "select",
+      "visible": true,
+      "filterable": true,
+      "values": [
+        "Fog",
+        "Chalk",
+        "Slate",
+        "Oat",
+        "Sage",
+        "Charcoal",
+        "Clear",
+        "Smoke",
+        "Natural",
+        "Brass"
+      ]
+    },
+    {
+      "id": "made_in",
+      "name": "Made in",
+      "type": "select",
+      "visible": true,
+      "filterable": true,
+      "values": [
+        "Vermont",
+        "Portugal",
+        "Lithuania",
+        "Japan"
+      ]
+    },
+    {
+      "id": "scent_notes",
+      "name": "Scent",
+      "type": "text",
+      "visible": true,
+      "filterable": false,
+      "values": []
+    },
+    {
+      "id": "dimensions",
+      "name": "Dimensions",
+      "type": "text",
+      "visible": true,
+      "filterable": false,
+      "values": []
+    },
+    {
+      "id": "care",
+      "name": "Care",
+      "type": "textarea",
+      "visible": true,
+      "filterable": false,
+      "values": []
+    }
+  ],
+  "categories": [
+    {
+      "slug": "tableware",
+      "name": "Tableware",
+      "parent": null,
+      "description": "Plates, bowls, mugs and glasses for every day, in three quiet glazes that mix freely. Made to be used, washed and used again.",
+      "image": {
+        "from_product": "stoneware-dinner-plate"
+      }
+    },
+    {
+      "slug": "linen",
+      "name": "Linen",
+      "parent": null,
+      "description": "Stone-washed linen for the table, the kitchen and the end of the bed. Soft from the first day, softer every wash, never ironed.",
+      "image": {
+        "from_product": "washed-linen-napkins"
+      }
+    },
+    {
+      "slug": "candles-scent",
+      "name": "Candles & scent",
+      "parent": null,
+      "description": "Undyed candles, beeswax tapers and a few gentle sprays. Three scents in all, each one quiet enough to live with.",
+      "image": {
+        "from_product": "fog-candle"
+      }
+    },
+    {
+      "slug": "bath",
+      "name": "Bath",
+      "parent": null,
+      "description": "Waffle towels, plain olive oil soap and a slow mineral soak: the few things a bathroom needs.",
+      "image": {
+        "from_product": "waffle-towel"
+      }
+    },
+    {
+      "slug": "desk-shelf",
+      "name": "Desk & shelf",
+      "parent": null,
+      "description": "Small objects for the places you look at most: a vase for one stem, a dish for keys, a notebook worth writing in.",
+      "image": {
+        "from_product": "bud-vase"
+      }
+    },
+    {
+      "slug": "ceramics",
+      "name": "Ceramics",
+      "parent": "tableware",
+      "description": "Iron-flecked stoneware in Fog, Chalk and Slate, glazed to a soft satin and thrown in a small family workshop in Portugal.",
+      "image": {
+        "from_product": "low-bowl"
+      }
+    },
+    {
+      "slug": "glassware",
+      "name": "Glassware",
+      "parent": "tableware",
+      "description": "Mouth-blown glass with a fine rim: tumblers, short wine glasses and a carafe for the bedside.",
+      "image": {
+        "from_product": "thin-tumblers"
+      }
+    }
+  ],
+  "products": [
+    {
+      "slug": "stoneware-dinner-plate",
+      "name": "Stoneware Dinner Plate",
+      "description_html": "<p>A wide, flat plate with a low rim that keeps sauces in place and leaves room for the food. Thrown from the same clay as the rest of our table, with a satin glaze that softens with use.</p><h3>Materials</h3><p>Iron-flecked stoneware with a satin glaze. The foot is left unglazed, so each plate shows a ring of raw clay.</p><h3>Care</h3><p>Dishwasher safe. Safe in the oven up to 400°F. Avoid sudden changes of temperature, such as a hot plate into cold water.</p><h3>Dimensions</h3><p>10.75 in across, 1 in tall.</p>",
+      "price": 38,
+      "sale_price": null,
+      "categories": [
+        "tableware",
+        "ceramics"
+      ],
+      "tags": [
+        "table",
+        "bestseller"
+      ],
+      "attributes": {
+        "material": "Stoneware",
+        "color": [
+          "Fog",
+          "Chalk",
+          "Slate"
+        ],
+        "made_in": "Portugal",
+        "dimensions": "10.75 in diameter",
+        "care": "Dishwasher safe. Safe in the oven up to 400°F. Avoid sudden changes of temperature, such as a hot plate into cold water."
+      },
+      "options": [
+        {
+          "name": "Glaze",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Fog",
+              "price": 0,
+              "color": "#d6dad3"
+            },
+            {
+              "name": "Chalk",
+              "price": 0,
+              "color": "#efede6"
+            },
+            {
+              "name": "Slate",
+              "price": 0,
+              "color": "#5f6662"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 90,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "stoneware-side-plate",
+        "low-bowl",
+        "washed-linen-napkins"
+      ],
+      "cross_sells": [
+        {
+          "product": "washed-linen-napkins",
+          "discount_percent": null
+        },
+        {
+          "product": "thin-tumblers",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of one round stoneware dinner plate with a low rim in a pale fog-gray satin glaze with faint iron flecks, seen from a slight three-quarter angle above, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Stoneware dinner plate in the Fog glaze",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "A simple table setting from above on pale oak: a stoneware dinner plate in a chalk-white glaze with a side plate on top, a folded oat linen napkin to the left, a thin glass tumbler of water, plenty of bare table around, soft morning daylight.",
+          "alt": "A dinner plate and side plate set on a pale oak table with an oat linen napkin",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "stoneware-side-plate",
+      "name": "Stoneware Side Plate",
+      "description_html": "<p>The small plate we reach for most: bread and butter, a slice of cake, a few olives, a ring set down at night.</p><h3>Materials</h3><p>Iron-flecked stoneware with a satin glaze and an unglazed foot.</p><h3>Care</h3><p>Dishwasher safe. Safe in the oven up to 400°F. Avoid sudden changes of temperature, such as a hot plate into cold water.</p><h3>Dimensions</h3><p>8 in across, 0.75 in tall.</p>",
+      "price": 28,
+      "sale_price": null,
+      "categories": [
+        "tableware",
+        "ceramics"
+      ],
+      "tags": [
+        "table"
+      ],
+      "attributes": {
+        "material": "Stoneware",
+        "color": [
+          "Fog",
+          "Chalk",
+          "Slate"
+        ],
+        "made_in": "Portugal",
+        "dimensions": "8 in diameter",
+        "care": "Dishwasher safe. Safe in the oven up to 400°F. Avoid sudden changes of temperature, such as a hot plate into cold water."
+      },
+      "options": [
+        {
+          "name": "Glaze",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Fog",
+              "price": 0,
+              "color": "#d6dad3"
+            },
+            {
+              "name": "Chalk",
+              "price": 0,
+              "color": "#efede6"
+            },
+            {
+              "name": "Slate",
+              "price": 0,
+              "color": "#5f6662"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 110,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "stoneware-dinner-plate",
+        "everyday-mug"
+      ],
+      "cross_sells": [
+        {
+          "product": "linen-tea-towels",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a small round stoneware side plate in a soft slate-gray satin glaze, straight-on from slightly above, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Stoneware side plate in the Slate glaze",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "low-bowl",
+      "name": "Low Bowl",
+      "description_html": "<p>Somewhere between a plate and a bowl: wide enough for pasta or a salad, deep enough for soup. It is the piece people ask about when they come to dinner.</p><h3>Materials</h3><p>Iron-flecked stoneware with a satin glaze inside and out, and an unglazed foot.</p><h3>Care</h3><p>Dishwasher safe. Safe in the oven up to 400°F. Avoid sudden changes of temperature, such as a hot plate into cold water.</p><h3>Dimensions</h3><p>9 in across, 2 in deep; holds about 24 fl oz.</p>",
+      "price": 34,
+      "sale_price": null,
+      "categories": [
+        "tableware",
+        "ceramics"
+      ],
+      "tags": [
+        "table",
+        "bestseller"
+      ],
+      "attributes": {
+        "material": "Stoneware",
+        "color": [
+          "Fog",
+          "Chalk",
+          "Slate"
+        ],
+        "made_in": "Portugal",
+        "dimensions": "9 in diameter, 2 in deep",
+        "care": "Dishwasher safe. Safe in the oven up to 400°F. Avoid sudden changes of temperature, such as a hot plate into cold water."
+      },
+      "options": [
+        {
+          "name": "Glaze",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Fog",
+              "price": 0,
+              "color": "#d6dad3"
+            },
+            {
+              "name": "Chalk",
+              "price": 0,
+              "color": "#efede6"
+            },
+            {
+              "name": "Slate",
+              "price": 0,
+              "color": "#5f6662"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 70,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "stoneware-dinner-plate",
+        "oval-platter"
+      ],
+      "cross_sells": [
+        {
+          "product": "washed-linen-napkins",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a wide, shallow stoneware bowl in a chalk-white satin glaze with faint speckles, three-quarter view from above showing the inside curve, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Low bowl in the Chalk glaze",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "everyday-mug",
+      "name": "Everyday Mug",
+      "description_html": "<p>A straight-sided mug with a handle that fits three fingers. It holds a proper cup of coffee and keeps it warm for a while.</p><h3>Materials</h3><p>Iron-flecked stoneware with a satin glaze and an unglazed foot.</p><h3>Care</h3><p>Dishwasher safe. Safe in the oven up to 400°F. Avoid sudden changes of temperature, such as a hot plate into cold water.</p><h3>Dimensions</h3><p>3.5 in across, 3.75 in tall; holds 12 fl oz.</p>",
+      "price": 30,
+      "sale_price": null,
+      "categories": [
+        "tableware",
+        "ceramics"
+      ],
+      "tags": [
+        "table",
+        "bestseller"
+      ],
+      "attributes": {
+        "material": "Stoneware",
+        "color": [
+          "Fog",
+          "Chalk",
+          "Slate"
+        ],
+        "made_in": "Portugal",
+        "dimensions": "3.5 in diameter, 3.75 in tall",
+        "care": "Dishwasher safe. Safe in the oven up to 400°F. Avoid sudden changes of temperature, such as a hot plate into cold water."
+      },
+      "options": [
+        {
+          "name": "Glaze",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Fog",
+              "price": 0,
+              "color": "#d6dad3"
+            },
+            {
+              "name": "Chalk",
+              "price": 0,
+              "color": "#efede6"
+            },
+            {
+              "name": "Slate",
+              "price": 0,
+              "color": "#5f6662"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 60,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "milk-pitcher",
+        "stoneware-side-plate"
+      ],
+      "cross_sells": [
+        {
+          "product": "linen-tea-towels",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a straight-sided stoneware mug with a simple loop handle on the right, in a pale fog-gray satin glaze with faint iron flecks, side view, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Everyday mug in the Fog glaze",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "A stoneware mug of black coffee on a pale stone windowsill beside a folded linen tea towel, soft early daylight through a window, wide pale gray wall around it.",
+          "alt": "The everyday mug with coffee on a windowsill",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "variant_stock": [
+        {
+          "values": {
+            "Glaze": "Slate"
+          },
+          "level": 0
+        }
+      ]
+    },
+    {
+      "slug": "milk-pitcher",
+      "name": "Milk Pitcher",
+      "description_html": "<p>A small pitcher with a lip that pours cleanly, for milk at breakfast, cream with dessert, or a few stems on the table afterwards.</p><h3>Materials</h3><p>Iron-flecked stoneware in our Chalk glaze.</p><h3>Care</h3><p>Dishwasher safe. Safe in the oven up to 400°F. Avoid sudden changes of temperature, such as a hot plate into cold water.</p><h3>Dimensions</h3><p>4.5 in tall; holds 16 fl oz.</p>",
+      "price": 46,
+      "sale_price": null,
+      "categories": [
+        "tableware",
+        "ceramics"
+      ],
+      "tags": [
+        "table"
+      ],
+      "attributes": {
+        "material": "Stoneware",
+        "color": "Chalk",
+        "made_in": "Portugal",
+        "dimensions": "4.5 in tall",
+        "care": "Dishwasher safe. Safe in the oven up to 400°F. Avoid sudden changes of temperature, such as a hot plate into cold water."
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 0,
+        "status": "out_of_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "everyday-mug"
+      ],
+      "cross_sells": [
+        {
+          "product": "bud-vase",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a small stoneware milk pitcher with a soft pouring lip and a loop handle, chalk-white satin glaze, side view, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Milk pitcher in the Chalk glaze",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "oval-platter",
+      "name": "Oval Platter",
+      "description_html": "<p>A long oval platter for roast vegetables, a whole fish or a loaf torn into pieces. Big enough to feed six; light enough to pass around.</p><h3>Materials</h3><p>Iron-flecked stoneware with a satin glaze and an unglazed foot.</p><h3>Care</h3><p>Dishwasher safe. Safe in the oven up to 400°F. Avoid sudden changes of temperature, such as a hot plate into cold water.</p><h3>Dimensions</h3><p>16 in long, 11 in wide, 1.25 in tall.</p>",
+      "price": 78,
+      "sale_price": 62,
+      "categories": [
+        "tableware",
+        "ceramics"
+      ],
+      "tags": [
+        "table",
+        "sale"
+      ],
+      "attributes": {
+        "material": "Stoneware",
+        "color": [
+          "Fog",
+          "Slate"
+        ],
+        "made_in": "Portugal",
+        "dimensions": "16 x 11 in",
+        "care": "Dishwasher safe. Safe in the oven up to 400°F. Avoid sudden changes of temperature, such as a hot plate into cold water."
+      },
+      "options": [
+        {
+          "name": "Glaze",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Fog",
+              "price": 0,
+              "color": "#d6dad3"
+            },
+            {
+              "name": "Slate",
+              "price": 0,
+              "color": "#5f6662"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 18,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "low-bowl",
+        "washed-linen-tablecloth"
+      ],
+      "cross_sells": [
+        {
+          "product": "washed-linen-napkins",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a long oval stoneware serving platter with a gently raised rim, pale fog-gray satin glaze, seen from above at a slight angle, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Oval platter in the Fog glaze",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "thin-tumblers",
+      "name": "Thin Tumblers, Set of 2",
+      "description_html": "<p>Mouth-blown tumblers with a fine rim and a slightly heavier base, so they feel light in the hand but settle firmly on the table. For water, wine or a short drink.</p><h3>Materials</h3><p>Mouth-blown lead-free glass, clear or in a pale smoke tint.</p><h3>Care</h3><p>Dishwasher safe on the top rack. Hand washing keeps the rim at its finest.</p><h3>Dimensions</h3><p>3 in across, 3.5 in tall; holds 8 fl oz each.</p>",
+      "price": 36,
+      "sale_price": null,
+      "categories": [
+        "tableware",
+        "glassware"
+      ],
+      "tags": [
+        "table",
+        "glass"
+      ],
+      "attributes": {
+        "material": "Glass",
+        "color": [
+          "Clear",
+          "Smoke"
+        ],
+        "made_in": "Lithuania",
+        "dimensions": "3 in diameter, 3.5 in tall",
+        "care": "Top rack of the dishwasher, or by hand."
+      },
+      "options": [
+        {
+          "name": "Glass",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Clear",
+              "price": 0,
+              "color": "#eef0ee"
+            },
+            {
+              "name": "Smoke",
+              "price": 0,
+              "color": "#8d918e"
+            }
+          ]
+        },
+        {
+          "name": "Set",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Set of 2",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "Set of 4",
+              "price": 32,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 80,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "bedside-carafe",
+        "short-wine-glasses"
+      ],
+      "cross_sells": [
+        {
+          "product": "washed-linen-napkins",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of two thin mouth-blown glass tumblers, one clear and one in a pale smoke-gray tint, standing side by side with soft refractions on the ground, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Two thin tumblers, one clear and one smoke",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "bedside-carafe",
+      "name": "Bedside Carafe",
+      "description_html": "<p>A carafe with its own glass that sits upside down on the neck as a lid. Keep it by the bed, on the desk or in the middle of the table.</p><h3>Materials</h3><p>Mouth-blown lead-free glass.</p><h3>Care</h3><p>Wash by hand with warm, soapy water; a bottle brush reaches the shoulder.</p><h3>Dimensions</h3><p>Carafe 7.5 in tall with the glass on top; holds 24 fl oz.</p>",
+      "price": 54,
+      "sale_price": null,
+      "categories": [
+        "tableware",
+        "glassware"
+      ],
+      "tags": [
+        "glass",
+        "gift"
+      ],
+      "attributes": {
+        "material": "Glass",
+        "color": "Clear",
+        "made_in": "Lithuania",
+        "dimensions": "7.5 in tall",
+        "care": "Wash by hand."
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 30,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "thin-tumblers"
+      ],
+      "cross_sells": [
+        {
+          "product": "fog-candle",
+          "discount_percent": null
+        },
+        {
+          "product": "cloth-bound-notebook",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a clear glass carafe filled with water with a small tumbler turned upside down over its neck as a lid, side view, soft refractions on the ground, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Bedside carafe with its glass on top",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "A clear glass bedside carafe of water with its tumbler lid on a pale oak bedside surface beside a closed cloth-bound book, against a pale gray wall, soft early morning light, plenty of empty space.",
+          "alt": "The bedside carafe on a pale oak surface beside a book",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "short-wine-glasses",
+      "name": "Short Wine Glasses, Set of 2",
+      "description_html": "<p>Stemless, or nearly: a short foot keeps the bowl off the table without making the glass fussy. Good for red, white and everything in between.</p><h3>Materials</h3><p>Mouth-blown lead-free glass.</p><h3>Care</h3><p>Dishwasher safe on the top rack.</p><h3>Dimensions</h3><p>3.25 in across, 4.25 in tall; holds 11 fl oz each.</p>",
+      "price": 42,
+      "sale_price": null,
+      "categories": [
+        "tableware",
+        "glassware"
+      ],
+      "tags": [
+        "glass"
+      ],
+      "attributes": {
+        "material": "Glass",
+        "color": "Clear",
+        "made_in": "Lithuania",
+        "dimensions": "3.25 in diameter, 4.25 in tall",
+        "care": "Top rack of the dishwasher."
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 40,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "thin-tumblers",
+        "bedside-carafe"
+      ],
+      "cross_sells": [
+        {
+          "product": "washed-linen-napkins",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of two short wine glasses with a round bowl on a very short foot, clear mouth-blown glass, one slightly behind the other, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Two short wine glasses",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "washed-linen-napkins",
+      "name": "Washed Linen Napkins, Set of 4",
+      "description_html": "<p>Heavy, stone-washed linen napkins that come soft and only get softer. We leave them unpressed: the creases are part of it.</p><h3>Materials</h3><p>100% European flax linen, stone-washed, with mitered corners.</p><h3>Care</h3><p>Machine wash warm with like colors. Tumble dry low or dry on the line. No need to iron.</p><h3>Dimensions</h3><p>20 x 20 in each.</p>",
+      "price": 48,
+      "sale_price": null,
+      "categories": [
+        "linen"
+      ],
+      "tags": [
+        "table",
+        "bestseller"
+      ],
+      "attributes": {
+        "material": "Washed linen",
+        "color": [
+          "Fog",
+          "Oat",
+          "Sage",
+          "Charcoal"
+        ],
+        "made_in": "Lithuania",
+        "dimensions": "20 x 20 in",
+        "care": "Machine wash warm; tumble dry low."
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Fog",
+              "price": 0,
+              "color": "#cfd4cc"
+            },
+            {
+              "name": "Oat",
+              "price": 0,
+              "color": "#d9cfbe"
+            },
+            {
+              "name": "Sage",
+              "price": 0,
+              "color": "#a9b2a0"
+            },
+            {
+              "name": "Charcoal",
+              "price": 0,
+              "color": "#46494a"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 120,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "washed-linen-tablecloth",
+        "linen-tea-towels"
+      ],
+      "cross_sells": [
+        {
+          "product": "stoneware-dinner-plate",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of four softly folded stone-washed linen napkins in an oat color stacked loosely, natural creases and visible weave, three-quarter view, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Washed linen napkins in Oat, folded in a stack",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "Overhead view of a pale oak table with a single loosely folded sage-colored linen napkin under a fork beside a chalk-white stoneware plate, generous bare table around, soft diffuse daylight.",
+          "alt": "A sage linen napkin set beside a plate",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "washed-linen-tablecloth",
+      "name": "Washed Linen Tablecloth",
+      "description_html": "<p>A tablecloth that looks right on a Tuesday. Stone-washed so it hangs softly at the corners, and heavy enough not to slide.</p><h3>Materials</h3><p>100% European flax linen, stone-washed, with a narrow hem.</p><h3>Care</h3><p>Machine wash warm. Shake out and dry on the line, or tumble dry low and fold while warm.</p><h3>Dimensions</h3><p>60 x 90 in seats six; 60 x 120 in seats eight to ten.</p>",
+      "price": 128,
+      "sale_price": null,
+      "categories": [
+        "linen"
+      ],
+      "tags": [
+        "table"
+      ],
+      "attributes": {
+        "material": "Washed linen",
+        "color": [
+          "Fog",
+          "Oat",
+          "Sage",
+          "Charcoal"
+        ],
+        "made_in": "Lithuania",
+        "dimensions": "60 x 90 in or 60 x 120 in",
+        "care": "Machine wash warm; dry on the line."
+      },
+      "options": [
+        {
+          "name": "Size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "60 x 90 in",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "60 x 120 in",
+              "price": 30,
+              "color": null
+            }
+          ]
+        },
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Fog",
+              "price": 0,
+              "color": "#cfd4cc"
+            },
+            {
+              "name": "Oat",
+              "price": 0,
+              "color": "#d9cfbe"
+            },
+            {
+              "name": "Sage",
+              "price": 0,
+              "color": "#a9b2a0"
+            },
+            {
+              "name": "Charcoal",
+              "price": 0,
+              "color": "#46494a"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 36,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "washed-linen-napkins"
+      ],
+      "cross_sells": [
+        {
+          "product": "oval-platter",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a large fog-gray stone-washed linen tablecloth folded into a soft rectangle, crumpled linen texture visible, slight three-quarter angle, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Washed linen tablecloth in Fog, folded",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "A long table covered with a fog-gray washed linen tablecloth falling softly over the edge, with only a low stoneware bowl and one glass carafe on it, pale gray limewashed wall behind, soft side daylight, airy and empty.",
+          "alt": "A washed linen tablecloth on a long table",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "linen-tea-towels",
+      "name": "Linen Tea Towels, Set of 2",
+      "description_html": "<p>Flat-woven linen towels that dry glasses without lint and dry themselves quickly afterwards. A cotton loop at one corner for a hook.</p><h3>Materials</h3><p>100% linen, flat weave, with a cotton hanging loop.</p><h3>Care</h3><p>Machine wash warm. Tumble dry low.</p><h3>Dimensions</h3><p>20 x 28 in each.</p>",
+      "price": 32,
+      "sale_price": null,
+      "categories": [
+        "linen"
+      ],
+      "tags": [
+        "kitchen"
+      ],
+      "attributes": {
+        "material": "Washed linen",
+        "color": [
+          "Fog",
+          "Oat",
+          "Charcoal"
+        ],
+        "made_in": "Lithuania",
+        "dimensions": "20 x 28 in",
+        "care": "Machine wash warm; tumble dry low."
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Fog",
+              "price": 0,
+              "color": "#cfd4cc"
+            },
+            {
+              "name": "Oat",
+              "price": 0,
+              "color": "#d9cfbe"
+            },
+            {
+              "name": "Charcoal",
+              "price": 0,
+              "color": "#46494a"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 75,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "washed-linen-napkins"
+      ],
+      "cross_sells": [
+        {
+          "product": "everyday-mug",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of two neatly folded flat-woven linen tea towels in oat with a thin charcoal edge stripe, a small cotton loop at one corner, stacked, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Two linen tea towels in Oat, folded",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "washed-linen-throw",
+      "name": "Washed Linen Throw",
+      "description_html": "<p>A light throw for the end of the bed or the back of a chair: warm enough for a cool evening, airy enough for summer. Finished with a short hand-knotted fringe.</p><h3>Materials</h3><p>Double-layer stone-washed linen, hand-knotted fringe.</p><h3>Care</h3><p>Machine wash cool on a gentle cycle. Dry flat or on the line.</p><h3>Dimensions</h3><p>51 x 71 in.</p>",
+      "price": 165,
+      "sale_price": 132,
+      "categories": [
+        "linen"
+      ],
+      "tags": [
+        "sale",
+        "gift"
+      ],
+      "attributes": {
+        "material": "Washed linen",
+        "color": [
+          "Fog",
+          "Oat",
+          "Charcoal"
+        ],
+        "made_in": "Lithuania",
+        "dimensions": "51 x 71 in",
+        "care": "Machine wash cool; dry flat."
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Fog",
+              "price": 0,
+              "color": "#cfd4cc"
+            },
+            {
+              "name": "Oat",
+              "price": 0,
+              "color": "#d9cfbe"
+            },
+            {
+              "name": "Charcoal",
+              "price": 0,
+              "color": "#46494a"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 22,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "fog-candle"
+      ],
+      "cross_sells": [
+        {
+          "product": "waffle-towel",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a folded oat-colored stone-washed linen throw with a short knotted fringe at one end, soft rumpled texture, three-quarter view, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Washed linen throw in Oat, folded",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "An oat-colored washed linen throw draped loosely over the end of a simple pale oak bench against a pale gray wall, soft afternoon daylight, a quiet empty room.",
+          "alt": "The washed linen throw draped over a pale oak bench",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "fog-candle",
+      "name": "Fog Candle",
+      "description_html": "<p>The candle we started with: undyed, poured by hand into a stoneware vessel you can keep long after. Each scent is quiet enough to fill a room without announcing itself.</p><h3>Scents</h3><ul><li><strong>Fig Leaf:</strong> green fig, cut stems, a little milk.</li><li><strong>Cedar &amp; Rain:</strong> wet stone, cedar, a cold window.</li><li><strong>White Tea:</strong> pale tea, linen, a trace of pear.</li></ul><h3>Materials</h3><p>Coconut and soy wax with an unbleached cotton wick, in a glazed stoneware vessel.</p><h3>Care</h3><p>Burn for two to three hours at a time and trim the wick to 1/4 in before you light it. Stop when 1/2 in of wax is left; wash the vessel with warm water and use it for pens or stems.</p><h3>Dimensions</h3><p>8 oz: 3.25 in across, 3.5 in tall, about 50 hours. 14 oz: 4 in across, 4 in tall, about 80 hours.</p>",
+      "price": 42,
+      "sale_price": null,
+      "categories": [
+        "candles-scent"
+      ],
+      "tags": [
+        "scent",
+        "bestseller",
+        "gift"
+      ],
+      "attributes": {
+        "material": "Coconut and soy wax",
+        "color": "Fog",
+        "made_in": "Vermont",
+        "scent_notes": "Fig Leaf, Cedar & Rain, White Tea",
+        "dimensions": "3.25 in or 4 in diameter",
+        "care": "Trim the wick to 1/4 in; burn 2–3 hours at a time."
+      },
+      "options": [
+        {
+          "name": "Scent",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Fig Leaf",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "Cedar & Rain",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "White Tea",
+              "price": 0,
+              "color": null
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "8 oz",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "14 oz",
+              "price": 22,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 150,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "room-mist",
+        "beeswax-tapers"
+      ],
+      "cross_sells": [
+        {
+          "product": "linen-water",
+          "discount_percent": null
+        },
+        {
+          "product": "washed-linen-throw",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a candle poured into a plain cylindrical stoneware vessel in a fog-gray satin glaze, pale undyed wax, unlit cotton wick, no label, slight three-quarter view, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Fog candle in its stoneware vessel",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "A lit candle in a plain fog-gray stoneware vessel on a pale oak shelf beside a small stack of two cloth-bound books, a calm gray wall, soft dusk daylight with a small warm flame, lots of empty space above.",
+          "alt": "The Fog candle lit on a shelf",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "variant_stock": [
+        {
+          "values": {
+            "Scent": "White Tea",
+            "Size": "14 oz"
+          },
+          "level": 0
+        }
+      ]
+    },
+    {
+      "slug": "beeswax-tapers",
+      "name": "Beeswax Tapers, Box of 8",
+      "description_html": "<p>Slim tapers dipped from pure beeswax, in its own pale honey color. They burn slowly and cleanly, and smell faintly of honey before you even light them. Subscribe and a fresh box arrives every two months.</p><h3>Materials</h3><p>100% beeswax from Vermont apiaries, unbleached cotton wick. Packed in a plain paper box.</p><h3>Care</h3><p>Fit snugly in the holder and keep away from drafts. Each taper burns about 7 hours.</p><h3>Dimensions</h3><p>10 in tall, 7/8 in base, to fit standard holders.</p>",
+      "price": 30,
+      "sale_price": null,
+      "categories": [
+        "candles-scent"
+      ],
+      "tags": [
+        "scent",
+        "subscribe"
+      ],
+      "attributes": {
+        "material": "Beeswax",
+        "color": "Natural",
+        "made_in": "Vermont",
+        "dimensions": "10 in tall",
+        "care": "Keep away from drafts; trim the wick before lighting."
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 200,
+        "status": "in_stock"
+      },
+      "subscription_plans": [
+        {
+          "name": "Every 2 months",
+          "interval": "monthly",
+          "interval_count": 2,
+          "price": 27,
+          "trial_days": 0,
+          "description": "Save 10% · Skip or cancel any time · Free shipping on every box"
+        }
+      ],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "taper-holder"
+      ],
+      "cross_sells": [
+        {
+          "product": "fog-candle",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of eight slim natural beeswax taper candles in a pale honey color laid side by side in a loose fan, unlit, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Eight beeswax tapers laid side by side",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "taper-holder",
+      "name": "Stoneware Taper Holder",
+      "description_html": "<p>A low, weighted holder with a wide drip tray, so a taper stands straight and the table stays clean.</p><h3>Materials</h3><p>Iron-flecked stoneware in our Fog glaze.</p><h3>Care</h3><p>Lift out wax drips once cool; wash by hand.</p><h3>Dimensions</h3><p>4.5 in across, 1.5 in tall; fits standard 7/8 in tapers.</p>",
+      "price": 32,
+      "sale_price": null,
+      "categories": [
+        "candles-scent"
+      ],
+      "tags": [
+        "scent",
+        "table"
+      ],
+      "attributes": {
+        "material": "Stoneware",
+        "color": "Fog",
+        "made_in": "Portugal",
+        "dimensions": "4.5 in diameter",
+        "care": "Wash by hand."
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 45,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "beeswax-tapers"
+      ],
+      "cross_sells": [
+        {
+          "product": "bud-vase",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a low round stoneware candle holder with a wide drip tray in a pale fog-gray glaze holding one tall unlit natural beeswax taper, side view, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Stoneware taper holder with a beeswax taper",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "room-mist",
+      "name": "Room Mist",
+      "description_html": "<p>Our Fig Leaf scent in a fine mist, for a room that needs airing or a coat closet that needs help. Two sprays is plenty.</p><h3>Materials</h3><p>Water, plant-derived alcohol and fragrance oils, in a frosted glass bottle with a metal sprayer.</p><h3>Care</h3><p>Shake gently and spray into the air, away from wood and silk.</p><h3>Dimensions</h3><p>3.4 fl oz; 6 in tall.</p>",
+      "price": 34,
+      "sale_price": null,
+      "categories": [
+        "candles-scent"
+      ],
+      "tags": [
+        "scent"
+      ],
+      "attributes": {
+        "material": "Frosted glass",
+        "color": "Clear",
+        "made_in": "Vermont",
+        "scent_notes": "Fig Leaf",
+        "dimensions": "6 in tall",
+        "care": "Spray into the air, away from wood and silk."
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 65,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "fog-candle"
+      ],
+      "cross_sells": [
+        {
+          "product": "linen-water",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a slim frosted glass spray bottle with a brushed metal sprayer, completely blank with no label, side view, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Room mist in a frosted glass bottle",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "linen-water",
+      "name": "Linen Water",
+      "description_html": "<p>A light spray for sheets, pillowcases and the iron. White Tea, barely there, so the bed smells clean rather than scented.</p><h3>Materials</h3><p>Water, plant-derived alcohol and fragrance oils, in a clear glass bottle.</p><h3>Care</h3><p>Spray onto linen from about a foot away, or into the water tank of a steam iron.</p><h3>Dimensions</h3><p>8.5 fl oz; 7 in tall.</p>",
+      "price": 26,
+      "sale_price": null,
+      "categories": [
+        "candles-scent",
+        "linen"
+      ],
+      "tags": [
+        "scent",
+        "linen-care"
+      ],
+      "attributes": {
+        "material": "Glass",
+        "color": "Clear",
+        "made_in": "Vermont",
+        "scent_notes": "White Tea",
+        "dimensions": "7 in tall",
+        "care": "Test on a hidden spot of dark fabrics first."
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 55,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "washed-linen-throw"
+      ],
+      "cross_sells": [
+        {
+          "product": "room-mist",
+          "discount_percent": null
+        },
+        {
+          "product": "washed-linen-napkins",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a clear glass bottle of water-clear liquid with a plain metal spray top, completely blank with no label, beside a small folded corner of fog-gray linen, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Linen water in a clear glass bottle",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "waffle-towel",
+      "name": "Waffle Towel",
+      "description_html": "<p>A deep waffle weave that dries quickly and feels light in the hand, so it never stays damp on the hook. It shrinks a little after the first wash and settles into its texture.</p><h3>Materials</h3><p>100% long-staple cotton, waffle weave, with a hanging loop.</p><h3>Care</h3><p>Machine wash warm. Tumble dry low. Skip the fabric softener; it flattens the weave.</p><h3>Dimensions</h3><p>Hand towel 20 x 30 in. Bath towel 30 x 56 in.</p>",
+      "price": 58,
+      "sale_price": null,
+      "categories": [
+        "bath"
+      ],
+      "tags": [
+        "bath",
+        "bestseller"
+      ],
+      "attributes": {
+        "material": "Cotton",
+        "color": [
+          "Fog",
+          "Oat",
+          "Sage"
+        ],
+        "made_in": "Portugal",
+        "dimensions": "20 x 30 in or 30 x 56 in",
+        "care": "Machine wash warm; no fabric softener."
+      },
+      "options": [
+        {
+          "name": "Size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Hand towel",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "Bath towel",
+              "price": 30,
+              "color": null
+            }
+          ]
+        },
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Fog",
+              "price": 0,
+              "color": "#cfd4cc"
+            },
+            {
+              "name": "Oat",
+              "price": 0,
+              "color": "#d9cfbe"
+            },
+            {
+              "name": "Sage",
+              "price": 0,
+              "color": "#a9b2a0"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 90,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "mineral-bath-soak"
+      ],
+      "cross_sells": [
+        {
+          "product": "olive-oil-soap",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a folded cotton waffle-weave towel in a pale sage color, the deep grid texture crisp in the light, small stack of two, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Waffle towels in Sage, folded",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "A sage waffle-weave cotton towel hanging from a single brushed brass hook on a pale gray limewashed bathroom wall, a corner of a pale stone basin below, soft daylight, minimal and quiet.",
+          "alt": "A waffle towel hanging on a brass hook",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "mineral-bath-soak",
+      "name": "Mineral Bath Soak",
+      "description_html": "<p>Coarse salts with a little oat and our Cedar & Rain scent, for a long bath at the end of a long day. One handful is a bath; the jar holds about ten.</p><h3>Materials</h3><p>Magnesium flakes, sea salt, colloidal oat, essential oils, in a glass jar with a stoneware lid.</p><h3>Care</h3><p>Stir a handful into warm running water. Keep the lid on between baths.</p><h3>Dimensions</h3><p>16 oz; 4 in tall.</p>",
+      "price": 32,
+      "sale_price": null,
+      "categories": [
+        "bath"
+      ],
+      "tags": [
+        "bath",
+        "gift"
+      ],
+      "attributes": {
+        "material": "Glass",
+        "color": "Fog",
+        "made_in": "Vermont",
+        "scent_notes": "Cedar & Rain",
+        "dimensions": "4 in tall",
+        "care": "Keep dry and closed."
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 70,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "waffle-towel"
+      ],
+      "cross_sells": [
+        {
+          "product": "olive-oil-soap",
+          "discount_percent": null
+        },
+        {
+          "product": "soap-dish",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a squat clear glass jar filled with coarse white bath salts and oat flakes, a matte fog-gray stoneware lid resting beside it, completely blank with no label, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Mineral bath soak in a glass jar",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "olive-oil-soap",
+      "name": "Olive Oil Soap, Set of 3",
+      "description_html": "<p>Plain, gentle bars made with olive oil and cured for eight weeks, so they last. One for the kitchen, one for the bath, one for a guest.</p><h3>Materials</h3><p>Saponified olive and coconut oils, glycerin, a trace of White Tea scent.</p><h3>Care</h3><p>Keep dry between uses; a draining dish makes a bar last twice as long.</p><h3>Dimensions</h3><p>Three 4 oz bars, 3 x 2 in each.</p>",
+      "price": 24,
+      "sale_price": null,
+      "categories": [
+        "bath"
+      ],
+      "tags": [
+        "bath"
+      ],
+      "attributes": {
+        "material": "Olive oil soap",
+        "color": "Natural",
+        "made_in": "Vermont",
+        "scent_notes": "White Tea",
+        "dimensions": "3 x 2 in each",
+        "care": "Keep dry between uses."
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 140,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "soap-dish"
+      ],
+      "cross_sells": [
+        {
+          "product": "waffle-towel",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of three plain rectangular pale cream bars of olive oil soap with softly rounded edges, completely blank and unstamped, stacked in a loose staggered pile, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Three bars of olive oil soap",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "soap-dish",
+      "name": "Soap Dish",
+      "description_html": "<p>A small dish with raised ridges, so the bar sits above the water and dries between uses.</p><h3>Materials</h3><p>Iron-flecked stoneware in our Fog or Slate glaze.</p><h3>Care</h3><p>Dishwasher safe. Safe in the oven up to 400°F. Avoid sudden changes of temperature, such as a hot plate into cold water.</p><h3>Dimensions</h3><p>4.75 x 3.25 in, 0.75 in tall.</p>",
+      "price": 22,
+      "sale_price": null,
+      "categories": [
+        "bath"
+      ],
+      "tags": [
+        "bath"
+      ],
+      "attributes": {
+        "material": "Stoneware",
+        "color": [
+          "Fog",
+          "Slate"
+        ],
+        "made_in": "Portugal",
+        "dimensions": "4.75 x 3.25 in",
+        "care": "Dishwasher safe. Safe in the oven up to 400°F. Avoid sudden changes of temperature, such as a hot plate into cold water."
+      },
+      "options": [
+        {
+          "name": "Glaze",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Fog",
+              "price": 0,
+              "color": "#d6dad3"
+            },
+            {
+              "name": "Slate",
+              "price": 0,
+              "color": "#5f6662"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 50,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "olive-oil-soap"
+      ],
+      "cross_sells": [
+        {
+          "product": "mineral-bath-soak",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a small rectangular stoneware soap dish with raised ridges, soft slate-gray glaze, holding one plain cream bar of soap, seen from slightly above, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Soap dish in Slate with a bar of soap",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "bud-vase",
+      "name": "Bud Vase",
+      "description_html": "<p>A narrow vase for one stem, or three. It stands on a desk, a sill or a bedside without taking over.</p><h3>Materials</h3><p>Iron-flecked stoneware, glazed inside to hold water, with a satin glaze outside.</p><h3>Care</h3><p>Wash by hand. Change the water every other day.</p><h3>Dimensions</h3><p>2.75 in across, 6.5 in tall.</p>",
+      "price": 36,
+      "sale_price": null,
+      "categories": [
+        "desk-shelf"
+      ],
+      "tags": [
+        "shelf",
+        "gift"
+      ],
+      "attributes": {
+        "material": "Stoneware",
+        "color": [
+          "Fog",
+          "Chalk",
+          "Slate"
+        ],
+        "made_in": "Portugal",
+        "dimensions": "6.5 in tall",
+        "care": "Wash by hand."
+      },
+      "options": [
+        {
+          "name": "Glaze",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Fog",
+              "price": 0,
+              "color": "#d6dad3"
+            },
+            {
+              "name": "Chalk",
+              "price": 0,
+              "color": "#efede6"
+            },
+            {
+              "name": "Slate",
+              "price": 0,
+              "color": "#5f6662"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 48,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "brass-catchall"
+      ],
+      "cross_sells": [
+        {
+          "product": "taper-holder",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a narrow stoneware bud vase with a small round opening in a chalk-white satin glaze, empty, side view, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Bud vase in the Chalk glaze",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "A narrow chalk-white stoneware bud vase holding a single dry grass stem on a pale oak shelf against a pale gray wall, soft side daylight, a long shadow, wide empty space.",
+          "alt": "The bud vase with one dry grass stem on a shelf",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "brass-catchall",
+      "name": "Brass Catchall",
+      "description_html": "<p>A shallow round dish for keys, rings, a watch, the paper clips that end up everywhere. Spun from solid brass and left unlacquered, so it darkens slowly with handling.</p><h3>Materials</h3><p>Solid spun brass, unlacquered.</p><h3>Care</h3><p>Wipe with a soft dry cloth. Leave it to darken, or polish it back with a little brass cleaner.</p><h3>Dimensions</h3><p>5 in across, 0.75 in tall.</p>",
+      "price": 44,
+      "sale_price": null,
+      "categories": [
+        "desk-shelf"
+      ],
+      "tags": [
+        "desk",
+        "gift"
+      ],
+      "attributes": {
+        "material": "Brass",
+        "color": "Brass",
+        "made_in": "Vermont",
+        "dimensions": "5 in diameter",
+        "care": "Wipe dry; polish if you like."
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 34,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "cloth-bound-notebook"
+      ],
+      "cross_sells": [
+        {
+          "product": "bud-vase",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a shallow round dish of brushed unlacquered brass with a softly rolled edge, empty, seen from a low three-quarter angle with a quiet warm reflection, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Brass catchall dish",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "cloth-bound-notebook",
+      "name": "Cloth-bound Notebook",
+      "description_html": "<p>A lay-flat notebook with a linen cover and thick, cream pages that take a fountain pen without showing through. Plain or with a faint dot grid.</p><h3>Materials</h3><p>Linen-covered board, 100 gsm acid-free paper, sewn binding. 192 pages.</p><h3>Care</h3><p>Keep out of direct sun so the cover keeps its color.</p><h3>Dimensions</h3><p>6 x 8.25 in.</p>",
+      "price": 28,
+      "sale_price": null,
+      "categories": [
+        "desk-shelf"
+      ],
+      "tags": [
+        "desk"
+      ],
+      "attributes": {
+        "material": "Paper and linen",
+        "color": [
+          "Fog",
+          "Charcoal"
+        ],
+        "made_in": "Japan",
+        "dimensions": "6 x 8.25 in",
+        "care": "Keep out of direct sun."
+      },
+      "options": [
+        {
+          "name": "Cover",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Fog",
+              "price": 0,
+              "color": "#cfd4cc"
+            },
+            {
+              "name": "Charcoal",
+              "price": 0,
+              "color": "#46494a"
+            }
+          ]
+        },
+        {
+          "name": "Pages",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Plain",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "Dot grid",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 85,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "brass-catchall"
+      ],
+      "cross_sells": [
+        {
+          "product": "bedside-carafe",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a closed notebook with a fog-gray linen cloth cover and a cream page edge, completely blank cover with no title or marks, lying at a slight angle seen from above, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "Cloth-bound notebook with a fog linen cover",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null
+    },
+    {
+      "slug": "evening-set",
+      "name": "The Evening Set",
+      "description_html": "<p>Everything for a slow evening in: a box of beeswax tapers, our stoneware holder and the Fig Leaf room mist, wrapped together in plain paper with a handwritten card.</p><h3>Materials</h3><p>See each piece: beeswax tapers, stoneware taper holder, room mist.</p><h3>Care</h3><p>As for each piece.</p><h3>Dimensions</h3><p>Arrives in a 12 x 9 x 4 in box.</p>",
+      "price": 86,
+      "sale_price": null,
+      "categories": [
+        "candles-scent"
+      ],
+      "tags": [
+        "gift-set",
+        "gift"
+      ],
+      "attributes": {
+        "material": [
+          "Beeswax",
+          "Stoneware",
+          "Frosted glass"
+        ],
+        "made_in": "Vermont"
+      },
+      "options": [],
+      "stock": {
+        "tracking": false,
+        "level": null,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [
+        {
+          "product": "beeswax-tapers",
+          "quantity": 1
+        },
+        {
+          "product": "taper-holder",
+          "quantity": 1
+        },
+        {
+          "product": "room-mist",
+          "quantity": 1
+        }
+      ],
+      "up_sells": [
+        "fog-candle"
+      ],
+      "cross_sells": [
+        {
+          "product": "washed-linen-throw",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a small still life: a plain paper box of natural beeswax tapers, a low fog-gray stoneware taper holder with one taper, and a frosted blank spray bottle, arranged in a loose row with space between, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "The Evening Set: beeswax tapers, a taper holder and room mist",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "type": "bundle"
+    },
+    {
+      "slug": "bath-set",
+      "name": "The Bath Set",
+      "description_html": "<p>A quiet bath, boxed: the Mineral Bath Soak, three bars of olive oil soap and a stoneware soap dish to keep them on. Wrapped in plain paper with a handwritten card.</p><h3>Materials</h3><p>See each piece: mineral bath soak, olive oil soap, soap dish.</p><h3>Care</h3><p>As for each piece.</p><h3>Dimensions</h3><p>Arrives in a 10 x 8 x 4 in box.</p>",
+      "price": 68,
+      "sale_price": null,
+      "categories": [
+        "bath"
+      ],
+      "tags": [
+        "gift-set",
+        "bath-gift"
+      ],
+      "attributes": {
+        "material": [
+          "Glass",
+          "Olive oil soap",
+          "Stoneware"
+        ],
+        "made_in": "Vermont"
+      },
+      "options": [],
+      "stock": {
+        "tracking": false,
+        "level": null,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [
+        {
+          "product": "mineral-bath-soak",
+          "quantity": 1
+        },
+        {
+          "product": "olive-oil-soap",
+          "quantity": 1
+        },
+        {
+          "product": "soap-dish",
+          "quantity": 1
+        }
+      ],
+      "up_sells": [
+        "waffle-towel"
+      ],
+      "cross_sells": [
+        {
+          "product": "linen-water",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Studio product photo of a small still life: a squat blank glass jar of white bath salts, a stoneware soap dish in fog-gray glaze with a plain cream soap bar, and two more bars stacked beside it, arranged with space between, alone on a seamless pale fog-gray background, soft daylight from the left, a soft shadow, centered with wide empty space around it.",
+          "alt": "The Bath Set: bath soak, olive oil soap and a soap dish",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "type": "bundle"
+    }
+  ],
+  "pages": [
+    {
+      "slug": "about",
+      "title": "About Palewick",
+      "template": "about",
+      "content_html": "<p>Palewick began in 2019 with one candle: undyed wax, a pale cotton wick and a stoneware vessel you could keep afterwards. Nora poured the first batch in the old loading room of a paper mill on Mill Row, in Ashby Falls, Vermont. The name came from that wick.</p><p>Sam joined a year later. He had cooked in restaurants for a long time and wanted plates that looked right under any food, and that could go through a busy dishwasher every night for years. He found a family workshop in Portugal that throws stoneware the way he wanted it, iron-flecked with a soft satin glaze, and the table followed.</p><h2>How we choose</h2><p>We keep the shop small, about thirty things, and add slowly. Each piece has to be useful every day, made by people we know, and good enough to keep for a long time. If we wouldn't use it at home, we don't sell it.</p><h2>Who makes it</h2><p>Our stoneware comes from a third-generation pottery near Coimbra, our linen from a weaving mill in Lithuania, and our glass from a small glassworks that still blows every piece by mouth. Candles, sprays and soaps are made here in Ashby Falls, in small batches.</p><h2>Visit</h2><p>The studio shop at 22 Mill Row is open Thursday to Saturday, from 10 to 5. Orders are packed in the room next door.</p>"
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "template": "contact",
+      "content_html": "<p>We read every message and answer within one working day, usually sooner. For an order, please include its number; for a breakage, a photo helps us sort it out straight away.</p>"
+    },
+    {
+      "slug": "shipping-returns",
+      "title": "Shipping & returns",
+      "template": null,
+      "content_html": "<h2>Shipping</h2><p>We ship to the United States and Canada. Orders leave our studio within two working days, packed in recycled paper with no plastic.</p><ul><li>Standard shipping is $8, and free on orders over $100.</li><li>Most US orders arrive in 3–6 working days; Canadian orders in 6–10.</li><li>Canadian orders may be charged duties and taxes on delivery.</li><li>Beeswax taper subscriptions always ship free.</li></ul><h2>Returns</h2><p>Send anything back within 30 days of delivery, unused and in its packaging, for a full refund. Burned candles and opened soaps or bath soaks can't be returned.</p><p>To start a return, write to hello@palewick.example with your order number. Return shipping is $8, taken from your refund.</p><h2>Breakages</h2><p>If something arrives chipped or broken, send us a photo within 7 days. We'll send a replacement or a refund straight away, and you don't need to send the broken piece back.</p>"
+    },
+    {
+      "slug": "faq",
+      "title": "Questions",
+      "template": null,
+      "content_html": "<h2>Is the stoneware dishwasher safe?</h2><p>Yes. It is also safe in the oven up to 400°F. Avoid moving a hot plate straight into cold water.</p><h2>Why does my plate look a little different from the photo?</h2><p>Every piece is thrown and glazed by hand, so the flecks, the glaze and the size vary a little. No two are quite alike.</p><h2>Do I need to iron the linen?</h2><p>No. It is stone-washed to be soft and slightly creased. Shake it out after washing and dry it on the line or on low heat.</p><h2>How do I get the most from a candle?</h2><p>Burn it for two to three hours the first time, until the whole surface has melted, and trim the wick to 1/4 in before each lighting.</p><h2>How does the taper subscription work?</h2><p>A box of eight beeswax tapers arrives every two months for $27, shipped free. Skip a box or cancel any time from your account.</p><h2>Do you wrap gifts?</h2><p>Every order is wrapped in plain paper. Add a note at checkout and we'll write it by hand on a card.</p>"
+    }
+  ],
+  "blog": {
+    "slug": "journal",
+    "title": "Journal",
+    "posts": [
+      {
+        "slug": "washing-linen",
+        "title": "How to wash linen (and why we never iron it)",
+        "date": "2026-09-16",
+        "tags": [
+          "linen",
+          "care"
+        ],
+        "content_html": "<p>Linen has a reputation for being difficult. It isn't. It mostly wants to be left alone.</p><h2>Washing</h2><p>Wash it warm, not hot, with other linen or cotton of a similar color, and use a little less detergent than you think. Skip the fabric softener: it coats the fibers and makes them less absorbent.</p><h2>Drying</h2><p>Line drying is best, and the creases fall out as it hangs. If you use a dryer, keep it on low and take the linen out while it's still faintly damp. Fold it then, smoothing it with your hands.</p><h2>Ironing</h2><p>You can, while it's damp, on a hot setting. We don't. A slightly creased napkin looks like it belongs to someone, and a pressed one looks like it belongs to a hotel.</p>",
+        "image": {
+          "prompt": "Washed linen napkins and a tea towel in fog, oat and sage hanging from wooden pegs on a thin line in front of a pale gray limewashed wall, soft overcast daylight, gentle movement in the fabric, wide calm composition with lots of empty wall.",
+          "size": "1536x1024",
+          "alt": "Linen napkins and a tea towel drying on a line"
+        }
+      },
+      {
+        "slug": "a-table-for-two",
+        "title": "A table for two on a Tuesday",
+        "date": "2026-10-14",
+        "tags": [
+          "table",
+          "evenings"
+        ],
+        "content_html": "<p>We like a set table on an ordinary night. Not a dinner party, just the small difference between eating at a table and eating at a counter.</p><h2>What it takes</h2><ul><li>Two low bowls: pasta, soup or a salad, all fit.</li><li>Two napkins, unironed.</li><li>Two glasses and a carafe of water, so nobody gets up.</li><li>One taper, lit before you sit down.</li></ul><p>That's all. No runner, no centerpiece, no matching anything. Mix the glazes; they were made to go together.</p><h2>Afterwards</h2><p>Everything goes in the dishwasher except the carafe. The napkins go in with the towels on the weekend.</p>",
+        "image": {
+          "prompt": "A small pale oak table set for two seen from a low angle: two low stoneware bowls in fog and chalk glazes, oat linen napkins, two thin glass tumblers, a glass carafe of water and one lit beeswax taper in a stoneware holder, soft early evening daylight from a window, pale gray walls, quiet and spacious.",
+          "size": "1536x1024",
+          "alt": "A table set for two with low bowls, linen napkins and a lit taper"
+        }
+      },
+      {
+        "slug": "burning-a-candle-well",
+        "title": "Burning a candle well",
+        "date": "2026-11-04",
+        "tags": [
+          "candles",
+          "how-to"
+        ],
+        "content_html": "<p>A good candle can still burn badly. These three habits make it last longer and burn cleaner.</p><h2>The first burn is the longest</h2><p>Light it for two to three hours the first time, until the melted wax reaches the edge of the vessel. If you blow it out early, it will tunnel down the middle for the rest of its life.</p><h2>Trim the wick</h2><p>Before every lighting, trim the wick to about 1/4 in. A long wick smokes and flickers; a short one burns low and steady.</p><h2>Know when to stop</h2><p>When half an inch of wax is left, stop. Pour in hot water, let the wax float up and set, lift it out and wash the vessel. Ours make good homes for pens, brushes or a few stems.</p>",
+        "image": {
+          "prompt": "Close view of a candle in a plain fog-gray stoneware vessel with a small steady flame and an even pool of melted pale wax, a pair of simple brass wick trimmers resting beside it on pale stone, soft window light, calm gray background with wide empty space.",
+          "size": "1536x1024",
+          "alt": "A lit candle with an even melt pool beside brass wick trimmers"
+        }
+      }
+    ]
+  },
+  "menus": {
+    "main_menu": [
+      {
+        "name": "Tableware",
+        "type": "category",
+        "value": "tableware",
+        "items": [
+          {
+            "name": "Ceramics",
+            "type": "category",
+            "value": "ceramics",
+            "items": []
+          },
+          {
+            "name": "Glassware",
+            "type": "category",
+            "value": "glassware",
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Linen",
+        "type": "category",
+        "value": "linen",
+        "items": []
+      },
+      {
+        "name": "Candles & scent",
+        "type": "category",
+        "value": "candles-scent",
+        "items": []
+      },
+      {
+        "name": "Bath",
+        "type": "category",
+        "value": "bath",
+        "items": []
+      },
+      {
+        "name": "Desk & shelf",
+        "type": "category",
+        "value": "desk-shelf",
+        "items": []
+      },
+      {
+        "name": "Journal",
+        "type": "blog",
+        "value": "journal",
+        "items": []
+      },
+      {
+        "name": "About",
+        "type": "page",
+        "value": "about",
+        "items": []
+      }
+    ],
+    "footer_menu": [
+      {
+        "name": "Shop",
+        "type": "heading",
+        "items": [
+          {
+            "name": "Tableware",
+            "type": "category",
+            "value": "tableware",
+            "items": []
+          },
+          {
+            "name": "Linen",
+            "type": "category",
+            "value": "linen",
+            "items": []
+          },
+          {
+            "name": "Candles & scent",
+            "type": "category",
+            "value": "candles-scent",
+            "items": []
+          },
+          {
+            "name": "Bath",
+            "type": "category",
+            "value": "bath",
+            "items": []
+          },
+          {
+            "name": "Desk & shelf",
+            "type": "category",
+            "value": "desk-shelf",
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Help",
+        "type": "heading",
+        "items": [
+          {
+            "name": "Shipping & returns",
+            "type": "page",
+            "value": "shipping-returns",
+            "items": []
+          },
+          {
+            "name": "Questions",
+            "type": "page",
+            "value": "faq",
+            "items": []
+          },
+          {
+            "name": "Contact",
+            "type": "page",
+            "value": "contact",
+            "items": []
+          },
+          {
+            "name": "Refunds",
+            "type": "url",
+            "value": "/policies/refund",
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Palewick",
+        "type": "heading",
+        "items": [
+          {
+            "name": "Our story",
+            "type": "page",
+            "value": "about",
+            "items": []
+          },
+          {
+            "name": "Journal",
+            "type": "blog",
+            "value": "journal",
+            "items": []
+          },
+          {
+            "name": "Privacy",
+            "type": "url",
+            "value": "/policies/privacy",
+            "items": []
+          },
+          {
+            "name": "Terms",
+            "type": "url",
+            "value": "/policies/terms",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "home_images": [
+    {
+      "key": "hero",
+      "size": "1536x1024",
+      "use": "home > intro (open_hero) > image, below the words in a wide 16:7 strip, so the objects sit in a horizontal band through the middle.",
+      "prompt": "A long, low pale oak table against a pale fog-gray limewashed wall, set very simply: a short stack of stoneware plates in fog and chalk glazes, a loosely folded oat linen napkin, a thin glass carafe of water, one unlit beeswax taper in a low stoneware holder and a narrow bud vase with a single dry grass stem, spaced apart. Soft morning daylight from the left. All the objects sit in one horizontal band through the middle of the frame, with wide empty wall above and bare table below, so it crops well to a wide strip.",
+      "alt": "A pale oak table with stoneware, linen, a glass carafe and a beeswax taper against a fog-gray wall"
+    },
+    {
+      "key": "studio",
+      "size": "1536x1024",
+      "use": "page 'about': an <img> at the top of its content, before the first paragraph (Marram's About layout has no photo section).",
+      "prompt": "The studio and packing room of a small home goods shop in an old mill building: tall windows with soft daylight, pale gray-white walls, a long plain table holding neat stacks of stoneware plates, folded linen and parcels wrapped in plain paper tied with cotton string, a simple open shelf with a few bowls behind. No people. Calm, spacious and orderly.",
+      "alt": "Our studio on Mill Row, with stacks of stoneware, folded linen and wrapped parcels on a long table"
+    }
+  ],
+  "section_content": [
+    {
+      "groups": [
+        "header"
+      ],
+      "sections": {
+        "announcement": {
+          "text": "Free shipping in the US and Canada on orders over $100",
+          "link_label": "Shipping & returns",
+          "link_href": "/pages/shipping-returns"
+        }
+      }
+    },
+    {
+      "groups": [
+        "footer"
+      ],
+      "sections": {
+        "footer": {
+          "tagline": "Quiet things for the table, the bath and the shelf.",
+          "note": "Studio shop at 22 Mill Row, Ashby Falls, Vermont. Thursday to Saturday, 10 to 5."
+        }
+      }
+    },
+    {
+      "templates": [
+        "home"
+      ],
+      "sections": {
+        "intro": {
+          "kicker": "Stoneware, linen, glass and scent",
+          "heading": "Quiet things for the table, the bath and the shelf.",
+          "line": "About thirty everyday things, made by people we know and chosen to be used for years.",
+          "link_label": "Shop all",
+          "link_href": "/products",
+          "image": {
+            "$image": "hero"
+          },
+          "image_place": "below",
+          "photo_ratio": "16:7"
+        },
+        "new": {
+          "heading": "New this fall",
+          "link_label": "Shop all",
+          "link_href": "/products",
+          "products": {
+            "from": "products",
+            "products": [
+              "oval-platter",
+              "washed-linen-throw",
+              "bedside-carafe",
+              "evening-set",
+              "brass-catchall",
+              "short-wine-glasses"
+            ]
+          }
+        },
+        "focus": {
+          "label": "Where we started",
+          "product": "fog-candle"
+        },
+        "index": {
+          "heading": "Collections",
+          "link_label": "All collections",
+          "link_href": "/categories",
+          "collections": {
+            "from": "collections",
+            "collections": [
+              "tableware",
+              "linen",
+              "candles-scent",
+              "bath",
+              "desk-shelf"
+            ]
+          }
+        },
+        "about": {
+          "label": "About Palewick",
+          "sentence": "We keep the shop small, about thirty things, and only sell what we use at home every day.",
+          "more_label": "Our story",
+          "more_href": "/pages/about"
+        },
+        "notes": {
+          "items": [
+            {
+              "name": "Made by hand",
+              "words": "Stoneware from a family pottery in Portugal, linen from a mill in Lithuania, candles poured in our Vermont studio.",
+              "link_text": "Who makes it",
+              "link_to": "/pages/about"
+            },
+            {
+              "name": "Made to be used",
+              "words": "Dishwasher safe, machine washable, built for every day rather than for best.",
+              "link_text": "Care questions",
+              "link_to": "/pages/faq"
+            },
+            {
+              "name": "Sent plainly",
+              "words": "Packed in recycled paper with no plastic. Free shipping over $100 to the US and Canada.",
+              "link_text": "Shipping & returns",
+              "link_to": "/pages/shipping-returns"
+            }
+          ]
+        },
+        "letters": {
+          "heading": "Letters",
+          "text": "A short note when something new arrives, and the occasional care guide. About once a month.",
+          "button_label": "Subscribe",
+          "note": "Unsubscribe any time with one click."
+        }
+      }
+    },
+    {
+      "templates": [
+        "page.about"
+      ],
+      "sections": {
+        "belief": {
+          "label": "What we believe",
+          "sentence": "Fewer, better things, made by people we know, and kept for years."
+        },
+        "notes": {
+          "heading": "How we work",
+          "items": [
+            {
+              "name": "Small batches",
+              "words": "Candles, sprays and soaps are poured and cut in Ashby Falls, a few dozen at a time."
+            },
+            {
+              "name": "Known makers",
+              "words": "We visit every workshop we buy from, and buy from the same ones year after year."
+            },
+            {
+              "name": "No plastic",
+              "words": "Orders go out in recycled paper and card, tied with cotton string."
+            },
+            {
+              "name": "Kept for years",
+              "words": "Chipped a plate in the first year? Write to us and we'll replace it."
+            }
+          ]
+        },
+        "picks": {
+          "heading": "Where to start",
+          "products": {
+            "from": "products",
+            "products": [
+              "low-bowl",
+              "washed-linen-napkins",
+              "fog-candle"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "templates": [
+        "page.contact"
+      ],
+      "sections": {
+        "details": {
+          "heading": "Write, call or visit",
+          "intro": "Questions about an order, a piece or a gift: we're glad to help.",
+          "address": "Palewick\n22 Mill Row\nAshby Falls, VT 05099",
+          "hours": "Studio shop: Thursday – Saturday | 10am – 5pm\nEmail and phone: Monday – Friday | 9am – 5pm ET"
+        },
+        "notes": {
+          "items": [
+            {
+              "name": "Orders",
+              "words": "Include your order number and we'll find it straight away.",
+              "link_text": "Shipping & returns",
+              "link_to": "/pages/shipping-returns"
+            },
+            {
+              "name": "Wholesale",
+              "words": "We supply a few shops and restaurants. Write to us with yours and what you have in mind."
+            },
+            {
+              "name": "Questions",
+              "words": "Glazes, washing, wicks: most answers are already here.",
+              "link_text": "Read the questions",
+              "link_to": "/pages/faq"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templates": [
+        "product"
+      ],
+      "sections": {
+        "product": {
+          "fine_print": [
+            {
+              "name": "Shipping",
+              "words": "Ships within two working days. $8, or free over $100, to the US and Canada."
+            },
+            {
+              "name": "Returns",
+              "words": "30 days to return anything unused. Breakages replaced, no need to send them back."
+            },
+            {
+              "name": "Made by hand",
+              "words": "Each piece varies a little in size, glaze and texture. That is part of it."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "theme_settings_notes": "Section settings are in section_content (templates home, page.about, page.contact, product; groups header, footer). What has no field: 1) The about page's photo: home_images 'studio' as an <img> at the top of the 'about' page content, before the first paragraph (alt from its entry). 2) STORE SETTINGS: support email hello@palewick.example and phone (802) 555-0148 (the contact page's details read them). 3) PRODUCTS: evening-set and bath-set are bundles of single-variant pieces; beeswax-tapers has an every-2-months plan with one-time purchase kept on. Sold-out states: milk-pitcher (whole product), everyday-mug Slate and fog-candle White Tea 14 oz (variants). On sale: oval-platter, washed-linen-throw. 4) Theme settings: none; Marram's defaults (sticky header, hover photo, color dots, no tile add button, quantity box) suit this store. 5) The founders (Nora Wend, Sam Avery), the town of Ashby Falls and every maker are invented for the demo."
+}

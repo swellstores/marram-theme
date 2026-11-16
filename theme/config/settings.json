@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "brand": {
+    "favicon": null,
+    "logo_width": 110,
+    "social": []
+  },
+  "tokens": {
+    "--uk-color-bg": "#e9ece7",
+    "--uk-color-surface": "#f7f8f5",
+    "--uk-color-muted-bg": "#dfe3dc",
+    "--uk-color-tile": "#e3e7e0",
+    "--uk-color-ink": "#1c1f1d",
+    "--uk-color-heading": "#141715",
+    "--uk-color-text-muted": "#525954",
+    "--uk-color-text-subtle": "#5c635e",
+    "--uk-color-line": "#d0d5cd",
+    "--uk-color-line-strong": "#b3bab0",
+    "--uk-color-outline": "#7f867f",
+    "--uk-color-accent": "#1c1f1d",
+    "--uk-color-accent-strong": "#2b302d",
+    "--uk-color-accent-soft": "#d9ded6",
+    "--uk-color-on-accent": "#f6f7f4",
+    "--uk-color-on-accent-muted": "#c9cec6",
+    "--uk-color-highlight": "#7d6c45",
+    "--uk-color-sale": "#9b3d2b",
+    "--uk-font-heading": "'Lexend', 'Lexend Fallback', Arial, sans-serif",
+    "--uk-font-body": "'Public Sans', 'Public Sans Fallback', Arial, sans-serif",
+    "--uk-font-accent": "'Public Sans', 'Public Sans Fallback', Arial, sans-serif",
+    "--uk-font-heading-weight": 300,
+    "--uk-radius-sm": 0,
+    "--uk-radius-md": 0,
+    "--uk-radius-lg": 0,
+    "--uk-radius-pill": 0,
+    "--uk-shadow-raised": "none",
+    "--uk-button-tracking": ".06em",
+    "--uk-type-scale": "display",
+    "--uk-density": "airy",
+    "--uk-width": "regular",
+    "--uk-button-fill": "solid",
+    "--uk-button-case": "none",
+    "--uk-heading-case": "none",
+    "--uk-eyebrow": "plain",
+    "--uk-card": "flat",
+    "--uk-art": "lines",
+    "--uk-product-image": "square",
+    "--uk-product-text": "left",
+    "--uk-motion": "subtle",
+    "--uk-heading-leading": 1.08,
+    "--uk-heading-tracking": -0.02,
+    "--uk-body-leading": 1.65,
+    "--uk-button-height": 50,
+    "--uk-button-padding": 30
+  },
+  "fonts": [
+    {
+      "family": "Lexend",
+      "source": "google",
+      "weights": [
+        300,
+        400
+      ],
+      "faces": [
+        {
+          "subset": "latin-ext",
+          "style": "normal",
+          "weight": "300 400",
+          "url": "https://fonts.gstatic.com/s/lexend/v26/wlpwgwvFAVdoq2_v9aQU82RHaBBX.woff2",
+          "range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF"
+        },
+        {
+          "subset": "latin",
+          "style": "normal",
+          "weight": "300 400",
+          "url": "https://fonts.gstatic.com/s/lexend/v26/wlpwgwvFAVdoq2_v-6QU82RHaA.woff2",
+          "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+        }
+      ],
+      "fallback": {
+        "local": "Arial",
+        "size_adjust": 109.9,
+        "ascent": 91,
+        "descent": 22.7,
+        "line_gap": 0
+      }
+    },
+    {
+      "family": "Public Sans",
+      "source": "google",
+      "weights": [
+        400,
+        500,
+        600
+      ],
+      "faces": [
+        {
+          "subset": "latin-ext",
+          "style": "normal",
+          "weight": "400 600",
+          "url": "https://fonts.gstatic.com/s/publicsans/v21/ijwRs572Xtc6ZYQws9YVwnNIfJ7QwOk1Fig.woff2",
+          "range": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF"
+        },
+        {
+          "subset": "latin",
+          "style": "normal",
+          "weight": "400 600",
+          "url": "https://fonts.gstatic.com/s/publicsans/v21/ijwRs572Xtc6ZYQws9YVwnNGfJ7QwOk1.woff2",
+          "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+        }
+      ],
+      "fallback": {
+        "local": "Arial",
+        "size_adjust": 102.2,
+        "ascent": 93,
+        "descent": 22,
+        "line_gap": 0
+      }
+    }
+  ]
+}

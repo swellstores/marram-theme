@@ -1,0 +1,45 @@
+{
+  "title": "Collection",
+  "sections": [
+    {
+      "id": "intro",
+      "type": "collection_intro",
+      "props": {
+        "collection": "current",
+        "show_children": "show"
+      }
+    },
+    {
+      "id": "products",
+      "type": "product_tiles",
+      "props": {
+        "products": {
+          "from": "collection",
+          "collection": "current",
+          "limit": 24
+        },
+        "columns": "3",
+        "frame": "inset",
+        "heading_place": "top",
+        "show_count": "show",
+        "show_sort": "show",
+        "show_filters": "show"
+      }
+    },
+    {
+      "id": "browse",
+      "type": "collection_index",
+      "props": {
+        "heading": "More to explore",
+        "link_label": "All collections",
+        "link_href": "/categories",
+        "collections": {
+          "from": "top",
+          "limit": 5
+        },
+        "numbers": "show",
+        "photos": "show"
+      }
+    }
+  ]
+}

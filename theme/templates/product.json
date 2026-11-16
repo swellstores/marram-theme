@@ -1,0 +1,58 @@
+{
+  "title": "Product",
+  "sections": [
+    {
+      "id": "product",
+      "type": "product_focus",
+      "props": {
+        "product": "current",
+        "plinth": "pale",
+        "pairs": {
+          "from": "up_sells",
+          "limit": 3
+        },
+        "show_attributes": "show",
+        "fine_print": []
+      }
+    },
+    {
+      "id": "notes",
+      "type": "text_columns",
+      "props": {
+        "items": []
+      }
+    },
+    {
+      "id": "related",
+      "type": "product_tiles",
+      "props": {
+        "heading": "You may also like",
+        "products": {
+          "from": "related",
+          "limit": 4
+        },
+        "columns": "4",
+        "frame": "inset",
+        "heading_place": "top",
+        "show_count": "hide",
+        "show_sort": "hide",
+        "show_filters": "hide"
+      }
+    },
+    {
+      "id": "browse",
+      "type": "collection_index",
+      "props": {
+        "heading": "Shop by collection",
+        "link_label": "All collections",
+        "link_href": "/categories",
+        "collections": {
+          "from": "top",
+          "limit": 5
+        },
+        "numbers": "show",
+        "photos": "show"
+      }
+    }
+  ]
+}

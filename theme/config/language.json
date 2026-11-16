@@ -1,0 +1,19 @@
+{
+  "$format": 1,
+  "product_info": {
+    "$label": "Product details",
+    "$notes": {
+      "details": "Heading over the product's attributes table",
+      "photos": "Name of the list of product photo links (screen readers)"
+    },
+    "details": "Details",
+    "photos": "Product photos"
+  },
+  "spotlight": {
+    "$label": "Product spotlight",
+    "$notes": {
+      "view": "Link from a spotlighted product to its own page"
+    },
+    "view": "View details"
+  }
+}

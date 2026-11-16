@@ -1,0 +1,27 @@
+{
+  "title": "Contact",
+  "sections": [
+    {
+      "id": "content",
+      "type": "page_content",
+      "props": {
+        "page": "current",
+        "width": "narrow"
+      }
+    },
+    {
+      "id": "details",
+      "type": "contact_details",
+      "props": {
+        "heading": "Get in touch"
+      }
+    },
+    {
+      "id": "notes",
+      "type": "text_columns",
+      "props": {
+        "items": []
+      }
+    }
+  ]
+}

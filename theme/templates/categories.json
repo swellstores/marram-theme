@@ -1,0 +1,19 @@
+{
+  "title": "Categories",
+  "sections": [
+    {
+      "id": "categories",
+      "type": "collection_index",
+      "props": {
+        "heading": "Collections",
+        "collections": {
+          "from": "top",
+          "limit": 24
+        },
+        "numbers": "show",
+        "photos": "show",
+        "page_list": "yes"
+      }
+    }
+  ]
+}
