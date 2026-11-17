@@ -2,8 +2,10 @@
   "id": "marram",
   "name": "Marram",
   "type": "theme",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "A minimal, airy theme that gives every product room to breathe",
+  "support_email": "support@swell.is",
+  "documentation_url": "https://developers.swell.is/app-guides/wave",
   "repository_url": "https://github.com/swellstores/marram-theme",
   "preview_src": "assets/preview.png",
   "preview_mobile_src": "assets/preview-mobile.png",
@@ -27,7 +29,7 @@
         "some"
       ],
       "best_for": "Any store that wants a quiet, airy look with room around every product",
-      "demo_url": "https://palewick-demo--ftaraqn8.swell.store/__demo"
+      "demo_url": "https://palewick-demo--ftaraqn8--preview.swell.store/__demo"
     }
   }
 }
